@@ -52,12 +52,12 @@ employee-analyzer/
 
 2. **Build the project**  
    ```
-   ./mvnw clean package
+   mvn clean package
    ```
 
 3. **Run the application**  
    ```
-   ./mvnw spring-boot:run
+   mvn spring-boot:run
    ```
 
    The application will read `employees.csv` from `src/main/resources` and print analysis results to the console.
@@ -67,7 +67,7 @@ employee-analyzer/
 To run all tests:
 
 ```
-./mvnw test
+mvn test
 ```
 
 ## Example Output
